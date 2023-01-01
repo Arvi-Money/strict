@@ -1,0 +1,72 @@
+@media screen  and (max-width:768px){
+    .banner h1{
+        color: rgb(255, 255, 255);
+        font-size: 90px;
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing: 2px;
+        padding-top: 10%;
+        margin: 0 auto;
+        border-bottom: 3px solid #359aff;
+        width: 75%;
+        text-align: center;
+        font-weight: normal;
+    }
+    
+    .banner p{
+    color: white;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+.banner .button{
+    margin-left: 35%;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 40px;
+    border: 1px solid #359aff;
+}
+    
+.portfolio_item h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.portfolio_item p{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 13px;
+}
+
+.blog_content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+    padding: 5% 10%;
+}
+.contact .input,textarea{
+    display: block;
+    width: 75%;
+    margin: auto;
+}
+
+.contact button{
+        font-size: 15px;
+        padding: 1.5% 7%;
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        border: 1px solid #359aff;
+        border-radius: 3px;
+        margin-left: 12rem;
+    
+}
+
+.footer_icon{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 70%;
+}
+}
