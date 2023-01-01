@@ -27,12 +27,12 @@ img{
 .navigation i{
     color: rgb(87, 135, 255);
     margin-left: 5%;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 30px;
 }
 
 .navigation h1{
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 25px;
     margin-left: 1%;
 }
@@ -64,7 +64,7 @@ img{
 
 .banner p{
     color: white;
-    margin-left: 35%;
+    margin-left: 30%;
     margin-top: 20px;
 }
 
@@ -99,13 +99,13 @@ img{
     line-height: 25px;
     color: rgb(135, 128, 117);
     box-sizing: border-box;
+    padding-bottom: 2%;
 }
 
 /* portfolio */
 
 .portfolio{
     width: 100%;
-    height: 40vh;
 }
 
 .portfolio_content{
@@ -134,7 +134,7 @@ img{
 
 .portfolio_item h1{
     font-size: 20px;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
     font-weight: normal;
 }
 
@@ -180,7 +180,6 @@ img{
 .contact{
     background-image: url(/img/contact_img.jpg);
     width: 100%;
-    height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -205,6 +204,7 @@ img{
     display: block;
     width: 45%;
     margin: auto;
+    padding-bottom: 5%;
     }
 
 input[type='text']{
@@ -264,38 +264,33 @@ input[type='checkbox']{
     color: white;
     border: 1px solid #359aff;
     border-radius: 3px;
-    margin-left: 23rem;
+    margin-left: 14.5rem;
 
 }
 
-footer
+/* footer */
 
 .footer{
     width: 100%;
-    padding: 1.5% 8%;
-}
-
-.footer_icon{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 70%;
-}
-
-.footer_item{
-    display: flex;
-    
+    padding-top: 2%;
 }
 
 .footer p{
-    color: rgb(190, 189, 189);;
+    width: 100%;
+}
+
+.footer_icon{
+    margin: 0 auto;
+    display: flex;
+    gap: 2%;
+    margin-bottom: 2%;
+    width: 100%;
+    padding: 0 10%;
 }
 
 .footer_icon i{
-    font-size: 15px;
     color: white;
     background-color: #359aff;
-    padding: 10px 13px;
+    padding: 5px;
     border-radius: 3px;
 }
-
